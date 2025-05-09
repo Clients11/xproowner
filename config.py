@@ -24,7 +24,8 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", 60*60*2)) # 2 hours
 VIDEO_DURATION_LIMIT = int(getenv("VIDEO_DURATION_LIMIT", 60*20)) # 20 minutes
 
 # Vars For API End Pont.
-YTPROXY_URL = getenv("YTPROXY_URL", 'https://yt.okflix.top/api') ## E.G https://yt.okflix.top/api/jADTdg-o8i0 Returns Download Info
+YTPROXY_URL = getenv("YTPROXY_URL", 'http://tubed3.okflix.top/') ## E.G https://yt.okflix.
+YT_API_KEY = "freekey15052025"
 # Chat id of a group for logging bot's activities
 
 LOGGER_ID = int(getenv("LOGGER_ID"))
