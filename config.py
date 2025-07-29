@@ -24,11 +24,8 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", 60*60*2)) # 2 hours
 VIDEO_DURATION_LIMIT = int(getenv("VIDEO_DURATION_LIMIT", 60*20)) # 20 minutes
 
 # Vars For API End Pont.
-#YTPROXY_URL = getenv("YTPROXY_URL", 'http://tubed.okflix.top') ## E.G https://yt.okflix.
-#YT_API_KEY = "freekey15052025"
-
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", 'NxGBNexGenBotse8e52d') # 
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
+YT_API_KEY = getenv("YT_API_KEY" , None ) ## get your secret key from Mr
 
 # Chat id of a group for logging bot's activities
 
@@ -52,8 +49,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Xprobots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/xProChats")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VibexBots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/VibesxSupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
